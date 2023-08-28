@@ -5,6 +5,7 @@ body, h1, p {
 }
 
 /*Style for Header*/
+
 .header {
     background-color: #000;
     color: #fff;
@@ -46,29 +47,26 @@ body, h1, p {
     cursor: pointer;
 }
 
-/*Style for Hero section*/
-
-
 /* Style the hero section */
+
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8f8f8;
-    height: 100vh;
+    background-color: #fdeef1;
+    height: 550px;
 }
 
 .hero-content {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
 .text-column {
     flex: 1;
-    padding: 20px;
+    padding: 80px;
 }
 
 .image-column {
@@ -81,29 +79,82 @@ h1 {
     color: #333;
 }
 
-p {
+.section-p1 {
     font-size: 18px;
     line-height: 1.5;
     color: #555;
+    padding-bottom: 20px;
 }
 
 .shop-now-button {
-    display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6b6b;
+    background-color: #E55473;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
-    transition: background-color 0.3s;
 }
 
 .shop-now-button:hover {
     background-color: #ff4040;
 }
 
-.image-column img {
+.banner-image {
+    height: 530px;
+    padding: 24px 0px 0px 70px;
+}
+
+/*Featured Section*/
+
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.featured-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.featured-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50% 50% 0 0;
+    padding: 20px;
+    height: 330px;
+    width: 300px;
+}
+
+.featured-column img {
     max-width: 100%;
-    height: auto;
-    display: block;
+    height: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.column1 {
+    background: #f2dee8;
+}
+
+.column2 {
+    background: #daf0f1;
+}
+
+.column3 {
+    background: #e4ecdc;
+}
+
+.featured-footer-text {
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
 }
