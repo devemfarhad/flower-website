@@ -281,3 +281,19 @@ h1 {
 .hot-deal-flower {
     height: 80%;
 }
+
+/*Style for instagram section*/
+.instagram-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container img {
+    max-width: 24%;
+}
