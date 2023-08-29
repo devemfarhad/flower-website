@@ -101,6 +101,10 @@ button:hover {
     font-weight: bold;
 }
 
+.logo-text {
+    color: #E55473;
+}
+
 .menu {
     list-style: none;
     margin: 0;
@@ -113,8 +117,8 @@ button:hover {
 }
 
 .shop-button {
-    background-color: #fff;
-    color: #000;
+    background-color: #e15274;
+    color: #ffffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -296,4 +300,95 @@ h1 {
 
 .image-container img {
     max-width: 24%;
+}
+
+/*Style for newsletter section*/
+.subscribe {
+    height: 350px;
+    background-image: url('../assets/img/newslatter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-description {
+    margin-bottom: 35px;
+}
+
+.email-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 500px;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.mail-container button {
+    border: 0;
+}
+/*Style for contact section*/
+.contact {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    background-color: #cfcece;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    cursor: pointer;
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #be92b0;
+}
+
+.contact-t {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for footer section */
+.footer {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.footer div {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer small>span {
+    padding-left: 15px;
+    padding-right: 15px;
 }
